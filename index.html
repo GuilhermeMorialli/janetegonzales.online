@@ -11,42 +11,38 @@
     <title>Protocolo Anti Grasa</title>
     
     <style type="text/css">
-      header {
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;   
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-  @media (max-width: 480px) { 
-    header {
-        background-image: url("assets/img/celular.jpg");;
-        background-size: cover;
-        width: 100%;
-        height: auto;
-    }
-}
+      <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" 
+          content="IE=edge" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
 
-@media (min-width: 481px) and (max-width: 1024px) {
-    header {
-        background-image: url("assets/img/pc.jpg");;
-        background-size: cover;
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (min-width: 1025px) {
-    header {
-      background-image: url("assets/img/pc.jpg");;
-      background-size: cover;
-      width: 100%;
-      height: auto;
-   }
-}
+    <style>
+      body {
+        /* Add image */
+        background-image: url("assets/img/pc.jpg");
+  
+        /* Make image center */
+        background-position: center center;
+  
+        /* Make image fixed */
+        background-attachment: fixed;
+  
+        /* Not repeat images */
+        background-repeat: no-repeat;
+  
+        /* Set background size auto */
+        background-size: auto;
+      }
+  
+      /* Media query for mobile devices  */
+      @media only screen and (max-width: 767px) {
+        body {
+          background-image: url("assets/img/celular.jpg");
+        }
+      }
+    </style>
     </style>
 
 <link rel="preload" href="https://player-vz-359751bb-df9.tv.pandavideo.com.br/embed/css/styles.css" as="style">
